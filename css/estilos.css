@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header{
@@ -49,6 +52,7 @@
   cursor: pointer;
   transition: .3s;
   color: #ffffff;
+  font-weight: 500;
 }
 
 .heder-top .logo:hover{
@@ -63,6 +67,7 @@
   border-radius: 3px;
   color: rgb(255, 255, 255);
   transition: .3s;
+  font-weight: 400;
 
 }
 
@@ -89,13 +94,13 @@ text-align: center;
 
 .header-center .header-center-text h1{
 font-size: 5em;
-font-weight: lighter;
+font-weight: 300;
 text-transform: uppercase;
 }
 .header-center .header-center-text p{
 font-size: 1.5em;
 margin: 5px 100px;
-font-weight: lighter;
+font-weight: 200;
 }
 
 .header-center .header-center-btn a{
@@ -148,6 +153,7 @@ background:rgba(38, 63, 106, 0.9);
 
 .description .description-items p{
   margin: 5px 0;
+  font-weight:200;
 }
 
 .description .description-items a{
@@ -213,7 +219,8 @@ color: rgb(197, 198, 197);
   margin-left: 15px;
   margin-right: 70px; */
   font-size: 1.3em;
-  color: rgb(197, 198, 197);
+  color: rgb(140, 148, 140);
+  font-weight: 200;
 
 }
 
@@ -271,8 +278,9 @@ color: rgb(197, 198, 197);
 
 .works .works-text{
   font-size: 1.3em;
-  color: rgb(197, 198, 197);
+  color: rgb(140, 148, 140);
   margin: 10px 0px 20px 0px;
+  font-weight: 200;
 }
 
 .works .works-items{
@@ -325,6 +333,7 @@ color: rgb(197, 198, 197);
 .works .works-items .works-item-info .works-item-info-title{
   font-size: 1.3em;
   margin: 5px 0px 10px 15px;
+  font-weight: 300;
 }
 
 .works .works-items .works-item-info .works-item-info-description{
@@ -339,6 +348,7 @@ color: rgb(197, 198, 197);
   text-decoration: none;
   font-size: 1.1em;
   color: rgba(228, 19, 19, 0.7);
+  font-weight:300;
 }
 
 .works .works-items .works-item-info .works-item-info-description .works-item-info-description-btn a:hover{
